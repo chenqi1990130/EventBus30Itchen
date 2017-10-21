@@ -36,6 +36,9 @@ public class MainActivity extends BaseActivity {
                         .setAction("Action", null).show();
 
                 start(Main2Activity.class);
+
+                MainActivity.this.finish();
+
             }
         });
 

@@ -66,6 +66,16 @@ public class Main3Activity extends BaseActivity {
 
                 EventBus.getDefault().postSticky(new MessageEvent("HelloMain3Activity发送的粘性事件"));
 
+                try {
+                    Thread.sleep(2000L);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                //然后启动
+                start(MainActivity.class);
+
+
             }
         });
 
