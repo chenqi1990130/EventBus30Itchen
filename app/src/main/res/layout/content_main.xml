@@ -13,8 +13,18 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/textview001"
         android:text="Hello World!第一个界面11111111111111111111"
         android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button001"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textview001"
+        android:text="发送粘性事件这里给Main3Activity"
+        />
+
 </RelativeLayout>
